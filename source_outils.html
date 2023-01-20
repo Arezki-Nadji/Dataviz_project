@@ -13,29 +13,76 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Lists des graphes
+           DashBoards
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Quantitatives/visualisation_quantitatives.html">Visualisation Quantitative</a></li>
+            <li><a class="dropdown-item" href="index.html">Tableau de board 1</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="Categories/visualisation_categories.html">Visualisation Par catégories</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="Non-Structured/visualisation_non_struturer.html">Visualisation Non Strucurées</a></li>
+            <li><a class="dropdown-item" href="#">Tableau de board 2</a></li>
           </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="source_outils.html">Sources et outils</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="membre.html">members du projet</a>
+          <a class="nav-link" href="membre.html">Members du projet</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+<div class="container ">
+  <hr>
+  <h4>DataSet :</h4>
+  <p>
+    
+    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Information sur le dataset
+    </a>
+    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapsecsv" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Preview du dataset
+    </a>
+    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapsecontenu" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Information sur le contenu
+    </a>
+    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapsegeneral" role="button" aria-expanded="false" aria-controls="collapseExample">
+      Information général sur le dataset
+    </a>
+  </p>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      Le dataset contient les informations statistique sur les jouers de championnat européen de Première League,Ligue 1,Bundesliga,Seria A et la Liga de l'année footbalistique 2021-2022.
+    </div>
+  </div>
+  <div class="collapse" id="collapsecsv">
+    <div class="card card-body">
+      <p>On a utiliser google sheet afin de nettoyer et d'avoir une vision plus claire sur l'exploitabilité de notre dataset <a target="_blank" href="https://docs.google.com/spreadsheets/d/1mjL9tgXts5TkiAHxr6cDQhKF5-x3IaIryEf98FOwcB4/edit?usp=sharing">(lien)</a></p>
+    </div>
+    </div>
+    <div class="collapse" id="collapsecontenu">
+      <div class="card card-body">
+        <p>Le dataset contient plus de 2500 ligne et 143 collumns,les plus important sont</p>
+        <ul>
+          <li>Rk:Rank (Classement)</li>
+          <li>Player:Player's name (Nom des jouers)</li>
+          <li>Nation:Player's nation (Nationalité des jouers)</li>
+          <li>Pos:Position</li>
+          <li>Squad:Squad's name (Nom des clubs)</li>
+          <li>Age:Age</li>
+          <li>MP:Maches played (Match disputé)</li>
+
+        </ul>
+      </div>
+  </div>
+  <div class="collapse" id="collapsegeneral">
+    <div class="card card-body">
+      <p><b>Auteur :</b> <a href="https://www.kaggle.com/vivovinco" target="_blank">Vivo Vinco </a></p>
+      <p><b>License :</b> <a href="https://www.kaggle.com/vivovinco" target="_blank">Attribution 4.0 International (CC BY 4.0) </a></p>
+      <p><b>Fréquence de mise à jour :</b> Chaque 8 mois</p>
+      <p><b>Source :</b><a href="https://www.kaggle.com/datasets/vivovinco/20212022-football-player-stats" target="_blank">2021-2022 Football Player Stats</a> </p>
+    </div>
+    </div>
+</div>
 </body>
